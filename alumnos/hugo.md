@@ -1,3 +1,3 @@
-# Tu nombre
-Hugo David
-- Comando de Linux favorito: 
+# Hugo
+
+- Comando de Linux favorito: help
