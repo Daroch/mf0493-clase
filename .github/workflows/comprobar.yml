@@ -1,0 +1,14 @@
+name: Comprobar fichas
+
+on:
+  pull_request:
+
+jobs:
+  comprobar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar el repositorio
+        uses: actions/checkout@v4
+
+      - name: Comprobar las fichas
+        run: bash scripts/comprobar.sh
